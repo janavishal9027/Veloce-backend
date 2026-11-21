@@ -1,0 +1,14 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Veloce Local" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="com.veloce.Veloce" />
+    <option name="VM_PARAMETERS" value="-Xms32m -Xmx384m -XX:+UseSerialGC -XX:ReservedCodeCacheSize=64m -XX:TieredStopAtLevel=1 -XX:CICompilerCount=2" />
+    <module name="veloce-api" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <envs>
+      <env name="SPRING_PROFILES_ACTIVE" value="local" />
+    </envs>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

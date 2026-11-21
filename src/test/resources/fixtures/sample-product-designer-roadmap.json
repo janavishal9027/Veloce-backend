@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "title": "Product Designer: small demonstration roadmap, not a full career curriculum",
+  "industry": "Design",
+  "targetRole": "Product Designer",
+  "nodes": [
+    {
+      "id": "research-module",
+      "parentId": null,
+      "title": "Understand the user problem",
+      "kind": "MODULE",
+      "estimatedMinutes": 0,
+      "dependsOn": [],
+      "priority": "MUST",
+      "outcome": "Create an evidence-based problem statement for one small product concept.",
+      "resources": []
+    },
+    {
+      "id": "research-fundamentals",
+      "parentId": "research-module",
+      "title": "User research fundamentals and interview planning",
+      "kind": "LESSON",
+      "estimatedMinutes": 120,
+      "dependsOn": [],
+      "priority": "MUST",
+      "outcome": "Write a research question, recruitment criteria and a five-question interview guide.",
+      "resources": []
+    },
+    {
+      "id": "interview-practice",
+      "parentId": "research-module",
+      "title": "Practice an interview and synthesize observations",
+      "kind": "PRACTICE",
+      "estimatedMinutes": 180,
+      "dependsOn": ["research-fundamentals"],
+      "priority": "MUST",
+      "outcome": "Conduct a practice interview with consent and summarize observations without identifying participants.",
+      "resources": []
+    },
+    {
+      "id": "research-case-study",
+      "parentId": "research-module",
+      "title": "Build a concise research case study",
+      "kind": "PROJECT",
+      "estimatedMinutes": 240,
+      "dependsOn": ["interview-practice"],
+      "priority": "MUST",
+      "outcome": "Present a problem statement, research observations and three justified design requirements.",
+      "resources": []
+    },
+    {
+      "id": "interface-module",
+      "parentId": null,
+      "title": "Design and communicate a solution",
+      "kind": "MODULE",
+      "estimatedMinutes": 0,
+      "dependsOn": [],
+      "priority": "MUST",
+      "outcome": "Produce and review a small interactive prototype linked to the research findings.",
+      "resources": []
+    },
+    {
+      "id": "interface-fundamentals",
+      "parentId": "interface-module",
+      "title": "Information hierarchy, layout and accessible interaction",
+      "kind": "LESSON",
+      "estimatedMinutes": 120,
+      "dependsOn": ["research-fundamentals"],
+      "priority": "MUST",
+      "outcome": "Sketch a clear task flow and identify keyboard, contrast and labeling requirements.",
+      "resources": []
+    },
+    {
+      "id": "prototype-project",
+      "parentId": "interface-module",
+      "title": "Create a prototype for one user task",
+      "kind": "PROJECT",
+      "estimatedMinutes": 300,
+      "dependsOn": ["research-case-study", "interface-fundamentals"],
+      "priority": "MUST",
+      "outcome": "Build a prototype covering a successful path, an empty state and an error state.",
+      "resources": []
+    },
+    {
+      "id": "portfolio-review",
+      "parentId": "interface-module",
+      "title": "Review the prototype and explain design decisions",
+      "kind": "ASSESSMENT",
+      "estimatedMinutes": 60,
+      "dependsOn": ["prototype-project"],
+      "priority": "SHOULD",
+      "outcome": "Demonstrate the task flow and explain two design decisions using the research evidence.",
+      "resources": []
+    }
+  ]
+}
